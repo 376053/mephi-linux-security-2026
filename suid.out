@@ -1,0 +1,15 @@
+/home/user1/cat
+/usr/lib/polkit-1/polkit-agent-helper-1
+/usr/sbin/unix_chkpwd
+/usr/sbin/usernetctl
+/usr/sbin/grub2-set-bootflag
+/usr/sbin/pam_timestamp_check
+/usr/bin/gpasswd
+/usr/bin/chage
+/usr/bin/umount
+/usr/bin/sudo
+/usr/bin/passwd
+/usr/bin/mount
+/usr/bin/su
+/usr/bin/pkexec
+/usr/bin/newgrp

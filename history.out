@@ -1,0 +1,17 @@
+    1  exit
+    2  sudo -i
+    3  whoami
+    4  ps -eo pid,ruid,euid,comm | awk '$3==0 && $2>1000 && $2<65534'
+    5  cp /usr/bin/chown /home/user1/chown
+    6  setcap cap_chown+ep /home/user1/chown
+    7  getcap /home/user1/chown
+    8  touch /home/user1/testfile
+    9  chown user1:students /home/user1/testfile
+   10  su - user1
+   11  visudo
+   12  su - user1
+   13  timedatectl set-ntp false
+   14  su - user1
+   15  timedatectl set-ntp true
+   16  376053 (m26-545 mephi)
+   17  history > ~/history.out
